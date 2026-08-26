@@ -1,0 +1,35 @@
+# Smester Project: Movie Recommendation System
+- 01 About Dataset
+- 02 Exploratory Data Analysis (EDA)
+    - 1. Understand the Dataset
+        - 1.1 Import Libraries
+        - 1.2 Load the dataset
+        - 1.3 Datasets Overview Before Merge
+        - 1.4 Merge Two DataFrames on the title Column
+        - 1.5 Dataset Overview Using head() and tail()
+        - 1.6 Checking Rows and Columns of the Dataset
+        - 1.7 Understanding Each Feature/Column
+        - 1.8 Statistical Summary
+    - 2. Selecting Relevant Features for Recommendation System
+        - 2.1 Dataset Overview After Selecting Relevant Features
+        - 2.2 Overview of Important Features for Recommendation System
+        - 2.3 Check Missing Values
+        - 2.4 Remove Unnecessary Null Values
+        - 2.5 Check Duplicate Records
+    - 3. Feature Engineering from Categorical Data
+        - 3.1 Preparing Genres for Model Building
+        - 3.2 Preparing keywords for Model Building
+        - 3.3 Preparing cast for Model Building
+        - 3.4 Preparing crew for Model Building
+        - 3.5 Removing Spaces from Multi-word Features
+        - 3.6 Transforming Overview Sentences into Word Lists
+        - 3.7 Combining All Text Features into a Single Tags Column
+        - 3.8 Final Dataset for Recommendation System
+        - 3.9 Converting Tags Text to Lowercase
+        - 3.10 Text Normalization using Porter Stemmer
+    - 4. Feature Extraction (Model Preparation Stage)
+        - 4.1 Converting Text into Numerical Features Using CountVectorizer
+        - 4.2 Building Similarity Matrix for Recommendation System
+        - 4.3 Movie Recommendation Function Using Similarity Scores
+        - 4.4 Saving Processed Data for Deployment
+
